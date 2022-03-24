@@ -1,6 +1,6 @@
 FROM openspug/spug:3.0.5
 
-ENV NODE_VERSION=16.13.1
+ENV NODE_VERSION=16.14.2
 ENV COMPOSER_HOME=/data/composer
 
 RUN set -ex \
