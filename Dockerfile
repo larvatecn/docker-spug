@@ -1,4 +1,4 @@
-FROM openspug/spug:3.0.4
+FROM openspug/spug:3.0.5
 
 ENV NODE_VERSION=16.13.1
 ENV COMPOSER_HOME=/data/composer
