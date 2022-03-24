@@ -21,8 +21,4 @@ RUN set -ex \
     && php80 composer-setup.php --install-dir=/usr/local/bin --filename=composer \
     && rm -f composer-setup.php \
     && ln -s /opt/remi/php80/root/usr/bin/php /usr/bin/php \
-    && composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/ \
-    && curl -SLO https://gosspublic.alicdn.com/ossutil/1.7.8/ossutil64 \
-    && mv ossutil64 /usr/local/ossutil \
-    && chmod +x /usr/local/ossutil \
     && rm -rf /var/cache/yum/*
